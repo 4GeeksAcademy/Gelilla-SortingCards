@@ -1,5 +1,83 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #4CAF50;
+  font-family: sans-serif;
+}
 
-body{
-    background: white;
+.inputBar {
+  padding: 1rem;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.sort-log h4 {
+  margin-bottom: 10px;
+}
+
+.log-step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.log-label {
+  width: 30px;
+  font-weight: bold;
+  padding-right: 10px;
+  text-align: right;
+  color: white;
+}
+
+.log-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-box {
+  width: 80px;
+  height: 120px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 8px;
+  font-size: 22px;
+}
+
+.card-body .top {
+  align-self: flex-start;
+  font-size: 16px;
+}
+
+.card-body .num {
+  align-self: center;
+  font-size: 28px;
+}
+
+.card-body .bottom {
+  align-self: flex-end;
+  font-size: 16px;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
 }
